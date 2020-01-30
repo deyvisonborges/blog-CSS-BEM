@@ -1,5 +1,6 @@
 <template>
   <div class="monos__feed">
+      <hr>
       <div class="monos__feed--post monos__feed--post--style">
         <post/>
       </div>
@@ -22,6 +23,10 @@ export default {
   height: 100vh;
   position: relative;
   padding:  20px 200px;
+  border-radius: 20px;
+}
+.monos__feed hr {
+  margin-bottom: 10px;
 }
 .monos__feed--post {
   width: 100%;
